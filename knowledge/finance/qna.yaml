@@ -11,8 +11,8 @@ seed_examples:
     answer: Document verification involves requesting official documents from customers and using technology like OCR and machine learning algorithms to detect forged or tampered documents. This helps ensure that the person applying for services has access to the necessary documents.
 task_description: 'Identify KYC Theft.'
 document:
-  repo: https://github.com/Dheeraj-Arremsetty/instructlab-challenge.git
-  commit: 7610a4d3b06a8e78a2ee0546d3b2cb9c83c895f1
+  repo: https://github.com/gravik123/taxonomy.git
+  commit: 42c099ed290457e1d16724f84105723987349c5e
   patterns:
-    - Identify_theft_kyc/identity-theft-kyc.md
+    - identity-theft-kyc.md
 
