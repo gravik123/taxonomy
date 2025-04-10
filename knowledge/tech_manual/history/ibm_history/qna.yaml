@@ -1,0 +1,159 @@
+created_by: IBM Research
+version: 1
+domain: history
+seed_examples:
+  - context: |
+      Herman Hollerith invented the punched card tabulator in the 1880s to automate census counting, easing manual labor and introducing mechanized data processing. It laid the groundwork for modern computing and binary systems.
+    questions_and_answers:
+      - question: What problem did Herman Hollerith aim to solve with his punched card tabulator?
+        answer: He aimed to automate the manual, error-prone process of counting census data to ease administrative burdens and increase efficiency.
+
+  - context: |
+      Hollerith’s machine won a competition held by the Census Office in 1888 by completing the task in 72.5 hours, outperforming competitors who took over 100 hours.
+    questions_and_answers:
+      - question: How did Hollerith’s tabulating machine perform in the 1888 Census competition?
+        answer: It completed the task in 72.5 hours, significantly faster than the other competitors, securing the contract for the 1890 census.
+
+  - context: |
+      The punched card reader used metal pins and mercury to detect holes in cards, sending electrical signals to dials to register binary data using the presence (1) or absence (0) of charge.
+    questions_and_answers:
+      - question: How did the punched card reader apply the binary principle?
+        answer: It used metal pins and mercury to detect holes, sending electrical signals to register a 1 or a 0, depending on whether a connection was made.
+
+  - context: |
+      Hollerith’s tabulator used punched cards to store demographic data, which could then be sorted and compiled efficiently using a card sorter.
+    questions_and_answers:
+      - question: What was the role of punched cards in Hollerith’s tabulator system?
+        answer: Punched cards stored demographic data that could be read and sorted by machines for efficient tabulation.
+
+  - context: |
+      The International Time Recording Company (ITR), founded in 1900, helped businesses track employee hours for payroll using time recorders like the Bundy Key Recorder.
+    questions_and_answers:
+      - question: What service did the International Time Recording Company primarily provide?
+        answer: It helped businesses accurately measure employee work hours for payroll using time-recording devices.
+
+  - context: |
+      In 1911, Charles Ranlett Flint merged the Tabulating Machine Company with others to form the Computing-Tabulating-Recording Company, which would become IBM.
+    questions_and_answers:
+      - question: Who was responsible for founding IBM through a merger in 1911?
+        answer: Charles Ranlett Flint, through a merger of three companies including the Tabulating Machine Company.
+
+  - context: |
+      In 1958, IBM sold its Time Equipment Division, which had become less relevant due to the company’s shift toward data processing and electric typewriters.
+    questions_and_answers:
+      - question: Why did IBM sell its Time Equipment Division in 1958?
+        answer: Because its focus had shifted to data processing and the division no longer aligned with IBM’s main product lines.
+
+  - context: |
+      The Bundy Key Recorder, invented in 1888, printed the exact time and employee number on tape when a key was inserted, automating time tracking.
+    questions_and_answers:
+      - question: What was the function of the Bundy Key Recorder?
+        answer: It printed the exact time and employee number on a tape for accurate payroll tracking when a key was inserted.
+
+  - context: |
+      Hollerith was inspired by earlier uses of punched cards in textile weaving and theoretical computing but was the first to apply them to data processing.
+    questions_and_answers:
+      - question: How was Hollerith’s use of punched cards different from earlier uses?
+        answer: He was the first to apply punched cards to data processing, unlike earlier uses in weaving looms and theoretical computing.
+
+  - context: |
+      In the early 20th century, Charles Flint saw a shared emphasis on data in time clocks, computing scales, and tabulating machines, leading to IBM’s origins.
+    questions_and_answers:
+      - question: What common feature did Charles Flint see in time clocks, computing scales, and tabulating machines?
+        answer: They all emphasized data collection and processing, prompting Flint to merge their companies into what became IBM.
+document_outline: |
+	The Evolution of IBM and the Punched Card Tabulator
+
+Introduction
+
+Overview of Herman Hollerith's invention of the punched card tabulator and its impact on the development of data processing and computers.
+
+The Punched Card Tabulator
+
+Inception and Purpose
+
+Hollerith's frustration with manual census processes and the creation of the tabulator.
+
+Introduction of mechanized data processing and its influence on modern computing.
+
+Development and Success
+
+The success of the tabulator in the 1890 US census and its global adoption by countries such as Austria, Canada, and Russia.
+
+Licensing of the tabulator to private businesses like railroads and utilities.
+
+Impact on IBM
+
+How the tabulator became a profitable product and led to the creation of IBM.
+
+A Contest to Handle the US Census
+
+Hollerith's Approach
+
+Design of the tabulator and the process of automating the census.
+
+The competition in 1888 for the fastest tabulating solution.
+
+Hollerith’s superior performance and the winning contract for the 1890 census.
+
+The Dawn of the Binary Principle
+
+Binary Data Processing
+
+How the tabulator used punched cards to represent data with holes, introducing the binary system of ones and zeros.
+
+Explanation of the machine’s function, including the role of spring-loaded pins and mercury reservoirs.
+
+The International Time Recording Company
+
+Origins and Merger
+
+Early IBM history with the International Time Recording Company and its role in payroll systems.
+
+The 1911 merger creating Computing-Tabulating-Recording Company (C-T-R), the precursor to IBM.
+
+Time Equipment Innovations
+
+Development of time recording devices like the Bundy Key Recorder and the Rochester Recorder.
+
+The Origins of IBM
+
+C-T-R Formation and Growth
+
+Charles Ranlett Flint’s merger of companies to create C-T-R.
+
+IBM’s rise as a leader in data processing, fueled by the tabulating machine.
+
+Thomas J. Watson’s Leadership
+
+Watson's role in leading C-T-R, transforming the company into IBM, and focusing on the tabulating machine.
+
+Watson’s vision, leadership, and the creation of IBM’s company culture.
+
+A Visionary Leader Takes Charge
+
+Watson's Influence
+
+How Watson shaped IBM’s global expansion and business strategies.
+
+Renaming of C-T-R to IBM in 1924 and Watson’s international vision for the company.
+
+Thomas J. Watson Sr.
+
+Legacy and Leadership
+
+Watson’s human-centric principles and the creation of IBM’s corporate culture.
+
+How Watson transformed IBM into a business juggernaut and an industry leader.
+
+Conclusion
+
+Summary of IBM's evolution from a tabulating machine company to a global technology leader.
+
+The lasting impact of Herman Hollerith’s invention and Thomas J. Watson’s leadership on the information technology industry.
+document:
+  repo: https://github.com/abhi1092/ibm-history-documents
+  commit: 1dc85d0fc19e21ad8adbf5f98bd8aa1e31257d0a
+  patterns:
+    - ibm*.md
+    - origins_of_ibm*.md
